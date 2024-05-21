@@ -1,6 +1,6 @@
 import unittest
 from flask_testing import TestCase
-from gh_gists_api.gists import app, GistsAPI
+from ..gists import app, GistsAPI
 
 class TestGistsApp(TestCase):
 
